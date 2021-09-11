@@ -85,7 +85,7 @@
                     </descriptorRefs>
                     <archive>
                         <manifest>
-                            <mainClass>edu.rice.comp504.controller.ChatAppController</mainClass>
+                            <mainClass>com.washu.chat.controller.ChatAppController</mainClass>
                         </manifest>
                     </archive>
                 </configuration>

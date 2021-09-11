@@ -23,8 +23,8 @@ class ChatNavBar extends React.Component {
     return (
         <Navbar bg="white" expand="lg" style={{paddingRight: "30px"}}>
           <Navbar.Brand href="#home" style={{fontSize: '30px', fontWeight: "500"}}>
-            <Image alt="logo" src="image/logo.png" width="80" height="80" className="d-inline-block align-center"/>
-            Rice Chat
+            <Image alt="logo" src="image/logo.png" width="40" height="40" className="d-inline-block align-center"/>
+            &nbsp;&nbsp;&nbsp;WashU Chat
           </Navbar.Brand>
           <Nav className="ml-auto align-center" style={{fontSize: '20px'}}>
             <Nav.Item>User: {this.props.username}</Nav.Item>
@@ -264,7 +264,7 @@ class ChatRoomList extends React.Component {
       minAge: "",
       maxAge: "",
       region: ["na"],
-      school: ["rice"],
+      school: ["washu"],
       groupNameError: "",
       ageError: "",
       regionError: "",
@@ -427,10 +427,10 @@ class ChatRoomList extends React.Component {
                     <Form.Group controlId="school">
                       <Form.Label>School</Form.Label>
                       <Form.Control name="school" as="select" value={this.state.school} onChange={this.handleChange} multiple>
-                        <option value="rice">Rice</option>
-                        <option value="tamu">TAMU</option>
-                        <option value="ut-austin">UT-Austin</option>
-                        <option value="ut-dallas">UT-Dallas</option>
+                        <option value="washu">WashU</option>
+                        <option value="ucb">UCB</option>
+                        <option value="uiuc">UIUC</option>
+                        <option value="nyu">NYU</option>
                       </Form.Control>
                       <Form.Text className="text-muted">
                         {this.state.schoolError}
@@ -607,7 +607,7 @@ class Register extends React.Component {
       username: "",
       age: "",
       region: "na",
-      school: "rice",
+      school: "washu",
       usernameError: "",
       ageError: ""
     };
@@ -697,10 +697,10 @@ class Register extends React.Component {
               <Form.Group controlId="school">
                 <Form.Label>School</Form.Label>
                 <Form.Control name="school" as="select" value={this.state.school} onChange={this.handleChange}>
-                  <option value="rice">Rice</option>
-                  <option value="tamu">TAMU</option>
-                  <option value="ut-austin">UT-Austin</option>
-                  <option value="ut-dallas">UT-Dallas</option>
+                  <option value="washu">WashU</option>
+                  <option value="ucb">UCB</option>
+                  <option value="uiuc">UIUC</option>
+                  <option value="nyu">NYU</option>
                 </Form.Control>
               </Form.Group>
 

@@ -1,4 +1,3 @@
-# chatapp-team-e-tofu
-chatapp-team-e-tofu created by GitHub Classroom
+# WashU Chat App
 
-https://chatapp-team-tofu.herokuapp.com/
+https://washu-chat.herokuapp.com/
